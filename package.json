@@ -4,12 +4,16 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "start": "tsc && node ."
+    "start": "tsc && node .",
+    "postinstall": "typings install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.5.1"
   }
 }

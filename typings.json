@@ -1,0 +1,7 @@
+{
+  "name": "perguntas_server",
+  "dependencies": {},
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20161019193037"
+  }
+}
