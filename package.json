@@ -4,8 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "start": "tsc | node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node ."
   },
   "author": "",
   "license": "ISC",
